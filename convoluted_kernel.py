@@ -127,6 +127,9 @@ def explore_maze(grid, start_i, start_j, swag):
         bfs_queue.append([explore_i, explore_j])
   #32
   grid[i][j] = "end"
+        
+    
+    
 
 #4, cont
 #print(build_maze(5,10,None))
